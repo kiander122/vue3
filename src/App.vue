@@ -1,5 +1,5 @@
 <script setup>
-    import Hero from "./components/Hero.vue";
+    import HeroSection from "./components/HeroSection.vue";
     import StatisticSection from "./components/StatisticSection.vue"
     import TeamSection from "./components/TeamSection.vue"
     import TestimonialsSection from "./components/TestimonialsSection.vue"
@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <Hero />
+    <HeroSection />
     <StatisticSection />
     <TestimonialsSection />
     <GallerySection />

@@ -1,11 +1,22 @@
-<script setup></script>
+<script setup>
+    import Hero from "./components/Hero.vue";
+    import StatisticSection from "./components/StatisticSection.vue"
+    import TeamSection from "./components/TeamSection.vue"
+    import TestimonialsSection from "./components/TestimonialsSection.vue"
+    import GallerySection from "./components/GallerySection.vue"
+    import ContactSection from "./components/ContactSection.vue"
+    import FooterSection from "./components/FooterSection.vue" 
+
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+    <Hero />
+    <StatisticSection />
+    <TestimonialsSection />
+    <GallerySection />
+    <TeamSection />
+    <ContactSection />
+    <FooterSection />
 </template>
 
 <style scoped></style>

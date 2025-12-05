@@ -24,7 +24,7 @@
             
             <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-start">
                 <div class="pt-8 lg:pt-0">
-                    <h1 class="text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6">
+                    <h1 class="font-moul text-5xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-6">
                         រឿងព្រេងខ្មែរ
                     </h1>
                     
@@ -48,7 +48,7 @@
                         class="w-full max-w-lg lg:max-w-none object-cover rounded-xl"
                     >
                     <div class="absolute top-1/4 right-0 transform translate-x-1/2 hidden sm:block">
-                        <div class="p-2 bg-white rounded-full shadow-lg text-sm font-medium text-gray-700 border border-gray-100">កណ្តើរ</div>
+                        <div class="p-2 bg-white rounded-full shadow-lg text-sm font-medium text-gray-700 border border-gray-100">ក្របី</div>
                     </div>
                     
                     <div class="absolute bottom-1/4 right-1/4 transform translate-x-1/2 hidden sm:block">

@@ -2,88 +2,16 @@
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ក្រុមរបស់យើង</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">យើងជាក្រុមដែលមានចំណង់ចំណូលចិត្តខ្ពស់ រួមមានអ្នកបង្កើត អ្នកដោះស្រាយបញ្ហា និងអ្នកដេញតាមក្តីស្រមៃ។ សមាជិកម្នាក់ៗនាំមកនូវជំនាញពិសេសៗរៀងៗខ្លួន ចាប់ពីការរចនា និងការអភិវឌ្ឍន៍ រហូតដល់ការគិតជាយុទ្ធសាស្ត្រ និងការទំនាក់ទំនង។ យើងរួមគ្នាប្រែក្លាយគំនិតទៅជាការពិត គាំទ្រគ្នាទៅវិញទៅមកដោយថាមពលវិជ្ជមាន និងខិតខំធ្វើឱ្យគម្រោងនីមួយៗក្លាយជាដំណើរដ៏គួរឱ្យរំភើប។</p>
             </div>
             <div class="flex flex-wrap -m-2">
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <div v-for="item in items" :key="item" class="p-2 lg:w-1/3 md:w-1/2 w-full">
                     <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                    <img alt="team" class="w-20 h-20 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" :src="item.image">
                     <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
-                        <p class="text-gray-500">UI Designer</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/84x84">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
-                        <p class="text-gray-500">CTO</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/88x88">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Oskar Blinde</h2>
-                        <p class="text-gray-500">Founder</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/90x90">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">John Doe</h2>
-                        <p class="text-gray-500">DevOps</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/94x94">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Martin Eden</h2>
-                        <p class="text-gray-500">Software Engineer</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/98x98">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Boris Kitua</h2>
-                        <p class="text-gray-500">UX Researcher</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/100x90">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Atticus Finch</h2>
-                        <p class="text-gray-500">QA Engineer</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/104x94">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Alper Kamu</h2>
-                        <p class="text-gray-500">System</p>
-                    </div>
-                    </div>
-                </div>
-                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                    <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
-                    <div class="grow">
-                        <h2 class="text-gray-900 title-font font-medium">Rodrigo Monchi</h2>
-                        <p class="text-gray-500">Product Manager</p>
+                        <h2 class="text-gray-900 title-font font-medium">{{ item.name }}</h2>
+                        <p class="text-gray-500">{{ item.position }}</p>
                     </div>
                     </div>
                 </div>
@@ -91,3 +19,14 @@
         </div>
     </section>
 </template>
+<script setup>
+import { ref, onMounted } from "vue"
+
+const items = ref([])
+
+onMounted(async () => {
+    const res = await fetch("/data/database.json")
+    const data = await res.json()
+    items.value = data?.our_team
+})
+</script>

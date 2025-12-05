@@ -5,7 +5,7 @@
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <img src="/images/logo.png" alt="logo" class="w-auto h-32 object-contain" />
                 </a>
-                <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+                <p class="mt-2 text-sm text-gray-500">ការអត់ធ្មត់ និងការពន្យល់ច្បាស់លាស់របស់អ្នកបានជួយដោះស្រាយបញ្ហាបានយ៉ាងឆាប់រហ័ស</p>
             </div>
             <div class="grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">

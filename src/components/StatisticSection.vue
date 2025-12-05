@@ -24,8 +24,25 @@
                 </div>
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                <img class="object-cover object-center w-full h-full" src="https://dummyimage.com/600x300" alt="stats">
+                <div class="h-screen w-full flex items-center justify-center overflow-hidden">
+                    <div class="relative lg:w-[290px] lg:h-[250px] md:w-[220px] md:h-[220px] sm:w-[180px] sm:h-[180px] w-[100px] h-[100px] transform-3d animate-[rotate_30s_linear_infinite]">
+                        <span v-for="item in items" :key="item" :style="{'--i': item.id}" class="span-style">
+                            <img :src="item.image" :alt="item.id" class="img-style"/>
+                        </span>
+                    </div>            
+                </div>
             </div>
         </div>
     </section>
 </template>
+<script setup>
+import { ref, onMounted } from "vue"
+
+const items = ref([])
+
+onMounted(async () => {
+    const res = await fetch("/data/database.json")
+    const data = await res.json()
+    items.value = data?.statistic
+})
+</script>

@@ -22,6 +22,7 @@
                     <h2 class="title-font font-medium text-3xl text-gray-900">4</h2>
                     <p class="leading-relaxed">អត្ថបទ</p>
                 </div>
+                <AvatarGroup :avatars="avatarList" :maxVisible="6" />
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
                 <div class="h-screen w-full flex items-center justify-center overflow-hidden">
@@ -37,8 +38,19 @@
 </template>
 <script setup>
 import { ref, onMounted } from "vue"
+import AvatarGroup from "@/components/AvatarGroup.vue";
 
 const items = ref([])
+const avatarList = [
+    "https://randomuser.me/api/portraits/men/32.jpg",
+    "https://randomuser.me/api/portraits/women/31.jpg",
+    "https://randomuser.me/api/portraits/men/33.jpg",
+    "https://randomuser.me/api/portraits/women/32.jpg",
+    "https://randomuser.me/api/portraits/men/44.jpg",
+    "https://randomuser.me/api/portraits/women/42.jpg",
+    "https://randomuser.me/api/portraits/men/45.jpg",
+    "https://randomuser.me/api/portraits/women/46.jpg",
+];
 
 onMounted(async () => {
     const res = await fetch("/data/database.json")

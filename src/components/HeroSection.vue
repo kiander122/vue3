@@ -1,26 +1,7 @@
 <template>
-    <section class="min-h-screen pt-4 pb-16 bg-white relative overflow-hidden">
+    <section class="min-h-screen py-8 bg-white relative overflow-hidden">
         <div class="absolute inset-0 bg-blue-50/50 -m-10 rounded-3xl" style="clip-path: inset(40px round 2rem);"></div>
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
-            <header class="flex justify-between items-center py-4 mb-16">
-                <div class="text-xl font-bold text-gray-900">
-                    <img src="/images/logo.png" alt="logo" class="w-auto h-28 object-contain" />
-                </div>
-                <nav class="hidden md:flex space-x-8 text-gray-600 font-medium">
-                    <a href="#" class="hover:text-indigo-600">អំពីពួកយើង</a>
-                    <a href="#" class="hover:text-indigo-600">រឿងនិទានខ្មែរ</a>
-                    <a href="#" class="hover:text-indigo-600">លក្ខណៈ</a>
-                    <a href="#" class="hover:text-indigo-600">ទំនាក់ទំនង</a>
-                </nav>
-                
-                <a href="#" class="hidden md:block purple-gradient bg-indigo-600 text-white py-2 px-6 rounded-lg font-medium shadow-md hover:shadow-lg transition duration-300">
-                    ដំណើរផ្សេងព្រេង
-                </a>
-
-                <button class="md:hidden text-gray-600">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                </button>
-            </header>
             
             <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-start">
                 <div class="pt-8 lg:pt-0">

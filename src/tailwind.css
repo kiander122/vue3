@@ -18,6 +18,21 @@
     }
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY(30px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
 @layer utilities {
     .animate-rotate {
         animation: rotate 30s linear infinite;
@@ -30,5 +45,91 @@
     }
     .font-moul {
         font-family: "Moul", sans-serif;
+    }
+
+
+    .text-shadow {
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    }
+    
+    .animate-float {
+        animation: float 8s infinite ease-in-out;
+    }
+
+    .delay-100 { animation-delay: 100ms; }
+    .delay-200 { animation-delay: 200ms; }
+    .delay-300 { animation-delay: 300ms; }
+    .delay-400 { animation-delay: 400ms; }
+
+    /* Background color utilities */
+    .bg-floral-pink { background-color: #F8C8DC; }
+    .bg-floral-green { background-color: #C1E1C1; }
+    .bg-floral-peach { background-color: #FFDAB9; }
+    .bg-floral-lavender { background-color: #E6E6FA; }
+
+    .animate-fade-in {
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .animate-float {
+        animation: float 8s infinite ease-in-out;
+    }
+
+    .animate-pulse-slow {
+        animation: pulse 4s infinite;
+    }
+
+    .animate-slide-up {
+        animation: slideUp 0.8s ease-out forwards;
+    }
+
+    /* Custom Colors */
+    .text-floral-pink {
+        color: #F8C8DC;
+    }
+
+    .text-floral-green {
+        color: #C1E1C1;
+    }
+
+    .text-floral-peach {
+        color: #FFDAB9;
+    }
+
+    .text-floral-lavender {
+        color: #E6E6FA;
+    }
+
+    /* Floral gradient left → right */
+    .bg-floral-gradient {
+        background-image: linear-gradient(to right, #F8C8DC, #C1E1C1);
+    }
+    .bg-floral-gradient-to-r {
+        background-image: linear-gradient(to right, #F8C8DC, #C1E1C1);
+    }
+
+    /* Optional: additional directions */
+    .bg-floral-gradient-to-t {
+        background-image: linear-gradient(to top, #F8C8DC, #C1E1C1);
+    }
+
+    .bg-floral-gradient-to-b {
+        background-image: linear-gradient(to bottom, #F8C8DC, #C1E1C1);
+    }
+
+    .bg-floral-gradient-to-l {
+        background-image: linear-gradient(to left, #F8C8DC, #C1E1C1);
+    }
+    
+
+    /* Optional: text gradient utility */
+
+    .text-floral-gradient {
+        background: linear-gradient(to right, #F8C8DC, #C1E1C1);
+        -webkit-background-clip: text;  /* WebKit browsers */
+        background-clip: text;          /* standard */
+        -webkit-text-fill-color: transparent; /* WebKit text fill */
+        color: transparent;             /* fallback */
+        display: inline-block;          /* needed for bg-clip-text to work */
     }
 }

@@ -5,7 +5,7 @@
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <img src="/images/logo.png" alt="logo" class="w-auto h-32 object-contain" />
                 </a>
-                <p class="mt-2 text-sm text-gray-500">ការអត់ធ្មត់ និងការពន្យល់ច្បាស់លាស់របស់អ្នកបានជួយដោះស្រាយបញ្ហាបានយ៉ាងឆាប់រហ័ស</p>
+                <p class="mt-2 text-sm text-gray-500">Your patience and clear explanations helped resolve the issue very quickly.</p>
             </div>
             <div class="grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                 <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -80,8 +80,8 @@
         </div>
         <div class="bg-gray-100">
             <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-gray-500 text-sm text-center sm:text-left">© 2025 Sokchea —
-                <a href="#" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Sokchea</a>
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2025 Dara —
+                <a href="#" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@Dara</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
                 <a class="text-gray-500">

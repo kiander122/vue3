@@ -1,103 +1,168 @@
 {
-    "statistic":[
+    "categories":[
         {
             "id":1,
-            "image":"/images/statistic/1.png"
+            "viewer":100,
+            "title":"Rose",
+            "image":"/images/Categories/4.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":2,
-            "image":"/images/statistic/2.png"
+            "viewer":100,
+            "title":"Lily",
+            "image":"/images/Categories/5.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":3,
-            "image":"/images/statistic/3.png"
+            "viewer":50,
+            "title":"Tulip",
+            "image":"/images/Categories/6.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":4,
-            "image":"/images/statistic/4.png"
+            "viewer":200,
+            "title":"Sunflower",
+            "image":"/images/Categories/Sunflower.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":5,
-            "image":"/images/Feature/កណ្តើរនិងកញ្ជ្រោង.png"
+            "viewer":50,
+            "title":"Orchid",
+            "image":"/images/Categories/Orchid.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":6,
-            "image":"/images/Feature/រឿងពស់កេងកង.png"
+            "viewer":50,
+            "title":"Daisy",
+            "image":"/images/Categories/Daisy.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":7,
-            "image":"/images/Feature/ព្រះធម្មចក្រនិងកញ្ចក់វេទមន្ត.png"
+            "viewer":50,
+            "title":"Carnation",
+            "image":"/images/Categories/Carnation.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":8,
-            "image":"/images/statistic/5.png"
+            "viewer":50,
+            "title":"Peony",
+            "image":"/images/Categories/Peony.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":9,
-            "image":"/images/statistic/6.png"
+            "viewer":50,
+            "title":"Lavender",
+            "image":"/images/Categories/Lavender.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         }
     ],
-    "fairy_tale":[
+    "products":[
         {
             "id":1,
-            "title":"ព្រះធម្មចក្រ និងកញ្ចក់វេទមន្ត",
-            "image":"/images/Feature/ព្រះធម្មចក្រនិងកញ្ចក់វេទមន្ត.png",
-            "description":"ព្រះធម្មចក្រ គឺជានិមិត្តរូបនៃព្រះពុទ្ធសាសនា ដែលតំណាងឲ្យសេចក្តីល្អ យុត្តិធម៌ និងការដឹកនាំទៅរកផ្លូវត្រឹមត្រូវ។ រីឯកញ្ចក់វេទមន្ត ជារបស់ដែលមានអានុភាពអាចមើលឃើញអតីតកាល បច្ចុប្បន្នកាល និងអនាគតកាល ព្រមទាំងបង្ហាញការពិតលាក់កំបាំងបាន។ កាលពីព្រេងនាយ មានព្រះរាជាមួយអង្គព្រះនាម ព្រះបាទធម្មរាជ ដែលសោយរាជ្យនៅនគរមួយឈ្មោះ ធម្មបុរី។ ព្រះអង្គមានព្រះទ័យសប្បុរស គោរពព្រះពុទ្ធសាសនា និងតែងតែប្រកាន់ខ្ជាប់នូវធម៌ទាំងដប់ប្រការ។ ក្នុងរាជវាំងរបស់ព្រះអង្គ មានវត្ថុស័ក្តិសិទ្ធិពីរយ៉ាងដែលត្រូវបានរក្សាទុកយ៉ាងហ្មត់ចត់បំផុត គឺ ព្រះធម្មចក្រមាស ដែលតែងតែបញ្ចេញរស្មីភ្លឺត្រចះត្រចង់នៅពេលមានសន្តិភាព និង កញ្ចក់វេទមន្ត ដែលមានសមត្ថភាពបង្ហាញការពិតគ្រប់យ៉ាង។ ថ្ងៃមួយ នគរធម្មបុរីបានជួបប្រទះនូវគ្រោះអត់ឃ្លាន និងជំងឺអាសន្នរោគយ៉ាងធ្ងន់ធ្ងរ។ ប្រជារាស្រ្តរងទុក្ខវេទនាគ្រប់ៗគ្នា។ ព្រះបាទធម្មរាជមានព្រះទ័យព្រួយបារម្ភជាខ្លាំង ក៏បានប្រជុំមន្ត្រីដើម្បីរកដំណោះស្រាយ។ ព្រះអង្គក៏បានយកកញ្ចក់វេទមន្តមកពិនិត្យមើលរកមូលហេតុ។ នៅក្នុងកញ្ចក់វេទមន្តបានបង្ហាញថា មូលហេតុនៃគ្រោះមហន្តរាយនេះ គឺបណ្តាលមកពីអំពើអាក្រក់របស់យក្សមួយអង្គព្រះនាម កាលយ័ក្ស ដែលលួចលាក់ធ្វើការបិទបាំងពន្លឺព្រះអាទិត្យ និងបានដាក់បណ្តាសាលើស្រុកទេស។ ព្រះធម្មចក្រដែលធ្លាប់តែភ្លឺស្វាង ក៏បានរិបអន់ពន្លឺរបស់ខ្លួនបន្តិចម្តងៗ។ដើម្បីសង្គ្រោះនគរ ព្រះបាទធម្មរាជបានសម្រេចចិត្តយាងទៅជួបកាលយ័ក្សដោយផ្ទាល់។ មុននឹងចេញដំណើរ ព្រះអង្គបានបួងសួងដល់ព្រះពុទ្ធ ព្រះធម៌ ព្រះសង្ឃ សូមឲ្យព្រះធម្មចក្រមាសផ្តល់នូវកម្លាំង និងប្រាជ្ញា។ ព្រះអង្គបានយាងទៅដល់ល្អាងកាលយ័ក្ស ហើយបានប្រឈមមុខជាមួយយក្សនោះ។កាលយ័ក្សមានកំហឹងយ៉ាងខ្លាំង ហើយបានប្រើមន្តអាគមខ្មៅងងឹតវាយប្រហារព្រះបាទធម្មរាជ។ ប៉ុន្តែដោយសារអានុភាពនៃព្រះធម្មចក្រដែលព្រះអង្គបានកាន់ កញ្ចក់វេទមន្តដែលបង្ហាញការពិត និងព្រះទ័យដ៏បរិសុទ្ធរបស់ព្រះអង្គ ព្រះអង្គមិនបានរងរបួសអ្វីឡើយ។ ព្រះបាទធម្មរាជបានពន្យល់ពីផលអាក្រក់នៃការធ្វើបាបអ្នកដទៃ និងប្រាប់កាលយ័ក្សឲ្យប្រែចិត្តបែរមករកសេចក្តីល្អ។កាលយ័ក្សមិនព្រមស្តាប់ ក៏បានវាយប្រហារម្តងទៀត។ ពេលនោះ ព្រះបាទធម្មរាជបានលើកព្រះធម្មចក្រមាសឡើងខ្ពស់ ហើយអធិដ្ឋាន។ រំពេចនោះ ព្រះធម្មចក្របានបញ្ចេញរស្មីដ៏ខ្លាំងក្លា ហោះឆ្ពោះទៅរកកាលយ័ក្ស។ កាលយ័ក្សមិនអាចទ្រាំទ្រនឹងពន្លឺដ៏បរិសុទ្ធនោះបាន ក៏រត់គេចខ្លួនបាត់ទៅ។បន្ទាប់ពីកាលយ័ក្សរត់គេចផុត គ្រោះមហន្តរាយនៅក្នុងនគរធម្មបុរីក៏បានរលាយបាត់ទៅវិញ ប្រជារាស្រ្តក៏មានសុខសាន្តដូចដើម។ ព្រះធម្មចក្រក៏បានភ្លឺស្វាងឡើងវិញ ហើយកញ្ចក់វេទមន្តក៏បានបង្ហាញពីអនាគតដ៏ភ្លឺស្វាងរបស់នគរ។"
+            "viewer":100,
+            "title":"Rose",
+            "image":"/images/Products/1.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":2,
-            "title":"រឿងពស់កេងកង",
-            "image":"/images/Feature/រឿងពស់កេងកង.png",
-            "description":"កាលពីព្រេងនាយ មានភូមិមួយនៅក្បែរព្រៃធំ។ មានប្ដីប្រពន្ធពីរនាក់រស់នៅទីនោះ ដោយពួកគាត់មានកូនស្រីម្នាក់ឈ្មោះ នាងនី ដែលមានរូបឆោមស្រស់ស្អាត និងមានចរិតល្អ។ ថ្ងៃមួយ ឪពុកម្តាយរបស់នាងនីបានធ្វើដំណើរទៅចំការដែលនៅឆ្ងាយពីផ្ទះ។ មុននឹងចេញទៅ ពួកគាត់បានហាមនាងនីមិនឲ្យលួចបរិភោគត្រសក់ផ្អែមដែលដាំនៅក្បែរបឹងឡើយ។ ប៉ុន្តែដោយសារតែនាងនីឃ្លានខ្លាំងពេក ក៏បានលួចទៅបេះត្រសក់ផ្អែមនោះបរិភោគ។ ពេលកំពុងបេះត្រសក់ នាងនីក៏បានឃើញ ពស់មួយក្បាល ដែលមានរូបរាងធំស្អាត និងមានក្បាលប្លែកជាងពស់ធម្មតា។ ពស់នោះបាននិយាយទៅកាន់នាងនីថា៖ «នាងកុំខ្លាចអី! បើត្រសក់នោះឆ្ងាញ់ណាស់ នាងបរិភោគចុះ ប៉ុន្តែពេលត្រឡប់ទៅផ្ទះវិញ នាងត្រូវតែទុកចំណីឲ្យខ្ញុំបរិភោគផង»។ នាងនីក៏យល់ព្រម។ ចាប់តាំងពីថ្ងៃនោះមក នាងនីតែងតែទុកបាយ ឬចំណីឲ្យពស់នោះបរិភោគរៀងរាល់ថ្ងៃ។ យូរៗទៅ ពស់នោះក៏បានប្រែរូបក្លាយទៅជា កំលោះសង្ហា ម្នាក់ ហើយបានរួមរស់ជាមួយនាងនីជាប្ដីប្រពន្ធដោយសម្ងាត់។ កំលោះនោះឈ្មោះ ពស់កេងកង (ឈ្មោះ ពស់កេងកង គឺសំដៅលើពស់ដែលមានក្បាលប្រក់ដូចជាកណ្ដឹងកង)។ ការដឹងឮ និងសោកនាដកម្ម នៅពេលដែលម្តាយនាងនីត្រឡប់មកវិញ ក៏បានសង្កេតឃើញកូនស្រីរបស់ខ្លួនមានរូបរាងធាត់ និងមានលម្អរលូមថ្មីៗ។ ម្តាយក៏សួរនាំ។ នាងនីក៏បានរៀបរាប់រឿងទាំងអស់ប្រាប់ម្តាយ ដោយបញ្ជាក់ថាកំលោះនោះជាមនុស្សល្អ តែគ្រាន់តែមានកំណើតជាពស់។ ម្តាយនាងនីមានការភ័យខ្លាចជាខ្លាំង ហើយគិតថាកូនស្រីខ្លួនពិតជាត្រូវបណ្តាសាហើយ។ យប់មួយ ពេលដែលពស់កេងកងបានចេញទៅក្រៅ ម្តាយនាងនីបាននាំអ្នកស្រុកមក សម្លាប់ពស់នោះ ហើយយកសាច់មកស្លជាម្ហូបអាហារបំពង់ចែកឲ្យអ្នកស្រុកបរិភោគ។ នៅពេលពស់កេងកងត្រឡប់មកវិញ ឃើញទិដ្ឋភាពនេះក៏យល់គ្រប់យ៉ាង។ មុននឹងដាច់ខ្យល់ស្លាប់ ពស់កេងកងបានបញ្ចេញ បណ្តាសា ទៅលើម្ដាយក្មេក និងអ្នកស្រុកទាំងអស់ថា «ចាប់ពីពេលនេះតទៅ ពួកអ្នកដែលបានបរិភោគសាច់របស់ខ្ញុំ នឹងត្រូវក្លាយទៅជាថ្ម ឬស្លាប់យ៉ាងអាក្រក់»។"
+            "viewer":100,
+            "title":"Lily",
+            "image":"/images/Products/2.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         },
         {
             "id":3,
-            "title":"រឿង “កណ្តើរ និងកញ្ជ្រោង”",
-            "image":"/images/Feature/កណ្តើរនិងកញ្ជ្រោង.png",
-            "description":"កាលមុន មាន កណ្តើរ និង កញ្ជ្រោង រស់នៅក្នុងព្រៃ។ កណ្តើរដើរយឺត ប៉ុន្តែមានអត់ធ្មត់ និងខិតខំ។ កញ្ជ្រោងរត់លឿន ប៉ុន្តែចូលចិត្តអួតអែក ហើយមិនអាចអត់ធ្មត់បានយូរ។ ថ្ងៃមួយ កញ្ជ្រោងលើកកណ្តើរ៖ “បងដើរយឺតខ្លាំង! យើងប្រកួតមួយភ្លែតមើល!” កណ្តើរយល់ព្រម និងកំណត់ថ្ងៃប្រកួត។ នៅថ្ងៃប្រកួត កញ្ជ្រោងរត់លឿនណាស់ ហើយឈប់សម្រាកក្រោមដើមឈើ ដើម្បីសម្រាក ព្រោះគិតថា “ខ្ញុំឈានដល់មុនហើយ!” ចុងក្រោយ កណ្តើរដើរយឺតៗ ប៉ុន្តែឈរជាប់គោលដៅ មុនកញ្ជ្រោង ដែលកំពុងគេងសម្រាក។"
+            "viewer":50,
+            "title":"Tulip",
+            "image":"/images/Products/3.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":4,
+            "viewer":200,
+            "title":"Sunflower",
+            "image":"/images/Products/4.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":5,
+            "viewer":50,
+            "title":"Orchid",
+            "image":"/images/Products/5.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":6,
+            "viewer":50,
+            "title":"Daisy",
+            "image":"/images/Products/6.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":7,
+            "viewer":50,
+            "title":"Carnation",
+            "image":"/images/Products/7.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":8,
+            "viewer":100,
+            "title":"Rose",
+            "image":"/images/Products/1.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":9,
+            "viewer":100,
+            "title":"Lily",
+            "image":"/images/Products/2.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":10,
+            "viewer":50,
+            "title":"Tulip",
+            "image":"/images/Products/3.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":11,
+            "viewer":200,
+            "title":"Sunflower",
+            "image":"/images/Products/4.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":12,
+            "viewer":50,
+            "title":"Orchid",
+            "image":"/images/Products/5.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":13,
+            "viewer":50,
+            "title":"Daisy",
+            "image":"/images/Products/6.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
+        },
+        {
+            "id":14,
+            "viewer":50,
+            "title":"Carnation",
+            "image":"/images/Products/7.jpg",
+            "description":"Rose, Lily, Tulip, Sunflower, Orchid, Daisy, Carnation, Peony, and Lavender"
         }
-    ],
-    "our_team":[
-        {
-            "id":1,
-            "name":"កញ្ចក់វេទមន្ត",
-            "image":"/images/OurTeam/1.avif",
-            "position":"អ្នករចនា"
-        },
-        {
-            "id":2,
-            "name":"ប្រាជ្ញា",
-            "image":"/images/OurTeam/2.avif",
-            "position":"អ្នកអភិវឌ្ឍន៍"
-        },
-        {
-            "id":3,
-            "name":"កំលោះសង្ហា",
-            "image":"/images/OurTeam/3.avif",
-            "position":"វិស្វករកម្មវិធី"
-        }
-    ],
-    "comments":[
-        {
-            "id":1,
-            "feedback":"រឿងនិទានខ្មែរធ្វើឲ្យខ្ញុំមានអារម្មណ៍ថាកំពុងត្រឡប់ទៅក្មេងវិញ។ រាល់តួអង្គ និងមេរៀនសីលធម៌នៅតែមានតម្លៃរហូតមកដល់សព្វថ្ងៃ។",
-            "title":"មតិយោបល់ពីអ្នកអាន",
-            "image":"/images/Comment/1.jpg",
-            "description":"រឿងនិទានខ្មែរធ្វើឲ្យខ្ញុំមានអារម្មណ៍ថាកំពុងត្រឡប់ទៅក្មេងវិញ។ រាល់តួអង្សារ និងមេរៀនសីលធម៌នៅតែមានតម្លៃរហូតមកដល់សព្វថ្ងៃ។"
-        },
-        {
-            "id":2,
-            "feedback":"ញុំទទួលបានភាពច្នៃប្រឌិតច្រើន ពេលសិក្សារឿងព្រេងបុរាណខ្មែរ។ តួអង្គ និងបរិយាកាសក្នុងរឿងធ្វើឲ្យខ្ញុំចង់បង្កើតរឿងថ្មីៗ ដែលសមរម្យសម្រាប់សម័យបច្ចុប្បន្ន។",
-            "title":"មតិយោបល់ពីអ្នកនិពន្ធ",
-            "image":"/images/Comment/2.avif",
-            "description":"ខ្ញុំទទួលបានแรงចិត្តច្នៃប្រឌិតច្រើន ពេលសួរលើគំនិតរឿងនិទានខ្មែរ។ តួអង្គ រូបភាព តង្កៀបធ្វើឲ្យខ្ញុំចង់បង្កើតរឿងថ្មីៗទៀត។"
-        },
-        {
-            "id":3,
-            "feedback":"ខ្ញុំចែករំលែករឿងខ្លីខ្មែរ ហើយបានទទួល Like និង Comment រាប់រយ! មនុស្សគ្រប់វ័យចូលចិត្តស្រឡាញ់រឿងនេះ!",
-            "title":"មតិយោបល់ពីសមាជិកបណ្ដាញសង្គម",
-            "image":"/images/Comment/3.jpg",
-            "description":"ខ្ញុំចែករំលែករឿងខ្លីខ្មែរ លើ Facebook Reel ហើយទទួលបានស្រឡាញ់រាប់ពាន់។ មនុស្សឆ្ងល់ចង់ដឹងពីដើមកំណើតរឿងខ្មែរ។"
-        }
+        
     ]
 }

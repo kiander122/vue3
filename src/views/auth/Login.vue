@@ -64,17 +64,17 @@ const questions = reactive([
         answers: ["Roses", "Tulips", "Lilies", "Mixed Bouquet"],
         selected: null
     },
-    {
-        id:2,
-        question: 'Who was the last person you gave flowers to and why did you give them flowers?',
-        answers: [
-            'A friend to celebrate their birthday',
-            'Family to show appreciation',
-            'Colleague for a work achievement',
-            'Myself just because'
-        ],
-        selected: null
-    }
+    // {
+    //     id:2,
+    //     question: 'Who was the last person you gave flowers to and why did you give them flowers?',
+    //     answers: [
+    //         'A friend to celebrate their birthday',
+    //         'Family to show appreciation',
+    //         'Colleague for a work achievement',
+    //         'Myself just because'
+    //     ],
+    //     selected: null
+    // }
 ])
 
 const generatePasscode = (length = 4) => {
@@ -163,6 +163,7 @@ const submitOtp = () => {
     if (validCodes.value === code) {
         localStorage.removeItem('passcode_user')
         localStorage.setItem('passcode', code)
+        saveLoginTime()
         router.push({ name: 'Home' })
     } else {
         toast.error('Invalid code!',{position: 'top',duration: 3000})
@@ -170,4 +171,11 @@ const submitOtp = () => {
         nextTick(() => otpRefs.value[0].focus())
     }
 }
+const LOGOUT_TIME = 30 * 1000;
+
+const saveLoginTime = () => {
+    const expiresAt = Date.now() + LOGOUT_TIME;
+    localStorage.setItem('logoutAt', expiresAt);
+};
+
 </script>

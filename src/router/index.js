@@ -5,6 +5,7 @@ import About from '@/views/About.vue'
 import Contacts from '@/views/Contacts.vue'
 import Teams from '@/views/Teams.vue'
 import Login from '@/views/auth/Login.vue'
+import Shopping from '@/views/Shopping.vue'
 
 const routes = [
     {
@@ -36,12 +37,12 @@ const routes = [
         component: Contacts,
         meta: { requiresAuth: true }
     },
-    // {
-    //     path:'/teams',
-    //     name: 'Teams',
-    //     component: Teams,
-    //     meta: { requiresAuth: true }
-    // },
+    {
+        path:'/shopping',
+        name: 'Shopping',
+        component: Shopping,
+        meta: { requiresAuth: true }
+    },
 ]
 
 const router = createRouter({

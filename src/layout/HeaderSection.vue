@@ -70,7 +70,7 @@ const router = useRouter()
 
 const isLoggedIn = ref(!!localStorage.getItem('passcode'))
 
-const LOGOUT_TIME = 10 * 60 * 1000;
+const LOGOUT_TIME = 30 * 1000;
 
 const saveLoginTime = () => {
     const expiresAt = Date.now() + LOGOUT_TIME;
